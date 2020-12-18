@@ -1,0 +1,214 @@
+body {
+    background-color: yellow;
+    margin: 0 !important;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+.content {
+    width: 80%;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rightBar {
+    width: 20%;
+    background: bisque;
+}
+.menu {
+    height: 10vh;
+    background: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menuItem {
+    background: lightgreen;
+    width: 10%;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.wiersz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    min-height: 40vh;
+    flex-wrap: wrap;
+}
+
+.product{
+    background-color: darkgray;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-top: 4px;
+    width: 250px;
+    height: 220px;
+}
+
+.photo{
+    background-color: pink;
+    width: 30vh;
+}
+
+.name{
+    background-color: lightgray;
+    width: 30vh;
+    margin-bottom: 0.5vh;
+    margin-top: 0.3vh;
+    text-align: center;
+}
+
+.twice {
+    background-color: lightgray;
+    height: 5vh;
+    width: 30vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    height: 3vh;
+    width: 9vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add {
+    background-color: gray;
+    height: 3vh;
+    width: 9vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.zakupy {
+    height: 20%;
+}
+
+.detale {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    justify-content: space-evenly;
+}
+
+.kup {
+    height: 6vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productBasket {
+    background-color: yellow;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.kupprzycisk {
+    background-color: gray;
+    opacity: 0.8;
+    height: 3vh;
+    width: 10vh;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.kupprzycisk:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.cena {
+    background-color: lightgray;
+    height: 6vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.usun {
+    background-color: lightgray;
+    height: 10vh;
+    width: 39vh;
+}
+
+.jeden {
+    background-color: white;
+    height: 5vh;
+    width: 39vh;
+}
+
+.lewy {
+    background-color: gray;
+    height: 3vh;
+    width: 25vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 4px;
+    float: left;
+    font-size: 15px;
+}
+
+.prawy {
+    background-color: gray;
+    height: 3vh;
+    width: 9vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 4px;
+    float: left;
+    font-size: 15px;
+
+
+
+}
+
+.dwa {
+    background-color: yellow;
+    height: 5vh;
+    width: 39vh;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+

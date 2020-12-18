@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body onload="genrateProducts();">
+
+<div>
+    <div class="menu">
+        <div class="menuItem">
+            <a href="http://localhost:63342/web_dev_html_css_js_zadania/Zaliczenie/html.html?_ijt=lm008ear38if3ut2r4iuobt4jr">Sklep</a>
+        </div>
+        <div class="menuItem">
+            <a href="http://localhost:63342/web_dev_html_css_js_zadania/Zaliczenie/html.html?_ijt=lm008ear38if3ut2r4iuobt4jr">Dostawa</a>
+            </div>
+        <div class="menuItem">
+            <a href="http://localhost:63342/web_dev_html_css_js_zadania/Zaliczenie/html.html?_ijt=lm008ear38if3ut2r4iuobt4jr">Rejestracja</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content" id="listaProduktow">
+
+        </div>
+
+        <div class="rightBar">
+            <div class="zakupy">
+                    <div class="kup">
+                        <div class="kupprzycisk" onClick="kup();">Kup</div>
+                        <div class="kupprzycisk" onClick="clearData();">Wyczysc</div>
+                    </div>
+                    <div class="cena">Cena Koszyka
+                        <div id="basketPrice">
+                        </div>
+                    </div>
+            </div>
+
+            <div id="productsBasket">
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
